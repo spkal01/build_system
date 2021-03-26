@@ -4,7 +4,7 @@ env: # Environt variable to pass to all tasks
     rclone_config: "ENCRYPTED[ad333dd506b7527f4577e2d14dff5c6766e438feea8186ce4b5485f8dad89cae10f94c6a777646f388a0c1aac65c39a5]"
 
 task:
-    name: StatixJob
+    name: TestJob
     timeout_in: 120m
     container:
       image: apon77/aosp:latest
